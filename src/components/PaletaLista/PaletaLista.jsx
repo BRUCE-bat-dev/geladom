@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./PaletaLista.css";
-import { paletas } from "../../mocks/paletas";
+
 import PaletaItem from "components/PaletaItem/PaletaItem";
 
 console.log("paletas", paletas);
