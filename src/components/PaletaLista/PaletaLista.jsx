@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import "./PaletaLista.css";
-
 import PaletaItem from "components/PaletaItem/PaletaItem";
-
-console.log("paletas", paletas);
+import { paletas } from "mocks/paletas.js";
 
 function PaletaLista() {
   const [paletaSelecionadas, setPaletaSelecionadas] = useState({});
